@@ -5,8 +5,8 @@ import HomeSeller from "./pages/home_seller/home_seller.page";
 import CreateUser from "./pages/home_seller/create_user/create_user.component";
 import Contact from "./pages/contact/contact.component";
 import Inventario from "./pages/Inventario/Inventario";
-
-
+import Ordenes from "./pages/Ordenes/Ordenes";
+import Clientes from "./pages/Clientes/Clientes";
 function App() {
   return (
 
@@ -16,6 +16,9 @@ function App() {
         <Route path="/PreguntasFrec" element={<Contact />} />
         <Route path="/HomeSeller" element={<HomeSeller />} />
         <Route path="/HomeSeller/CreateUser" element={<CreateUser />} />
+        <Route path="/Inventario" element={<Inventario />} />
+        <Route path="/Ordenes" element={<Ordenes />} />
+        <Route path="/Clientes" element={<Clientes />} />
       </Routes>
 
   );
