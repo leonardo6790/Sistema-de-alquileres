@@ -1,0 +1,24 @@
+.Box{
+    display: flex;
+    max-height: 250px;
+    width: 96%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.unlorem{
+    flex-direction: column;
+    width: 50%;
+}
+.parrafos{
+    padding: 3vh;
+}
+.xd{
+    width: 100%;
+    text-align: center;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
