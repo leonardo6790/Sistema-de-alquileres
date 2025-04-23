@@ -1,0 +1,32 @@
+.cartas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8%;
+}
+
+.tituloinventario{
+    text-align: center;
+}
+.cajainventario{
+    text-align: end;
+}
+.botoninventario{
+    width: 20px;
+    height: 20px;
+}
+.divisor{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.xd{
+    display: flex;
+    flex-direction: column;
+}
+.botonuevo{
+    margin: 5px;
+    width: 15%;
+    background-color: rgb(113, 113, 239);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 4vh;
+}
