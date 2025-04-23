@@ -1,0 +1,13 @@
+.Contenedor{
+    width: 85%;
+    height: auto;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1.5fr 1fr;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 2.5%
+    
+}
+

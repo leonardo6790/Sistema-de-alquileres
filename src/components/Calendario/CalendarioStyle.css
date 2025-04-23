@@ -1,0 +1,50 @@
+.calendario {
+    width: 380px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .navegacion button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .dias-semana,
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .celda {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .celda.vacia {
+    background-color: transparent;
+  }
+  
+  .celda.dia {
+    color: #1c1c1c;
+    font-weight: bold;
+  }
+  
+  .celda.dia:hover {
+    background-color: #1852c0;
+    color: white;
+  }
