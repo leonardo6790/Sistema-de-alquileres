@@ -4,7 +4,7 @@ import FrontPage from "./pages/front-page/front_page.page";
 import HomeSeller from "./pages/home_seller/home_seller.page";
 import CreateUser from "./pages/home_seller/create_user/create_user.component";
 import Contact from "./pages/contact/contact.component";
-import Ordenes from "./pages/Ordenes/Ordenes";
+
 
 function App() {
   return (
