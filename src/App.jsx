@@ -6,6 +6,7 @@ import CreateUser from "./pages/home_seller/create_user/create_user.component";
 import Contact from "./pages/contact/contact.component";
 import Inventario from "./pages/Inventario/Inventario";
 
+
 function App() {
   return (
 
