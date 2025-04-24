@@ -7,6 +7,7 @@ import Contact from "./pages/contact/contact.component";
 import Inventario from "./pages/Inventario/Inventario";
 import Ordenes from "./pages/Ordenes/Ordenes";
 import Clientes from "./pages/Clientes/Clientes";
+import UserTable from "./pages/home_seller/search_client/search_client.page";
 function App() {
   return (
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/PreguntasFrec" element={<Contact />} />
         <Route path="/HomeSeller" element={<HomeSeller />} />
         <Route path="/HomeSeller/CreateUser" element={<CreateUser />} />
+        <Route path="/HomeSeller/SearchUser" element={<UserTable />} />
         <Route path="/Inventario" element={<Inventario />} />
         <Route path="/Ordenes" element={<Ordenes />} />
         <Route path="/Clientes" element={<Clientes />} />
