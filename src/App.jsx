@@ -8,6 +8,7 @@ import Inventario from "./pages/Inventario/Inventario";
 import Ordenes from "./pages/Ordenes/Ordenes";
 import Clientes from "./pages/Clientes/Clientes";
 import UserTable from "./pages/home_seller/search_client/search_client.page";
+import Ingresos from "./pages/Ingresos/ingresos-page";
 function App() {
   return (
 
@@ -21,6 +22,9 @@ function App() {
         <Route path="/Inventario" element={<Inventario />} />
         <Route path="/Ordenes" element={<Ordenes />} />
         <Route path="/Clientes" element={<Clientes />} />
+        <Route path="/ingresos" element={<Ingresos />} />
+        
+        
       </Routes>
 
   );
