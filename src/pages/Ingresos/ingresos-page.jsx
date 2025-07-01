@@ -5,7 +5,7 @@ const Ingresos = () =>{
     return(
         <>
         <SellerNavbar></SellerNavbar>   
-
+        <></>
         </>
     )
 }

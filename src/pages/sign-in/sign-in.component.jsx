@@ -3,18 +3,18 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaUser, FaLock } from "react-icons/fa";
 import Navbar from "../../components/nav-bar/nav_bar.component";
 import "./sign-in.styles.css";
+import { useRol } from "../../Estados/Rol";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate(); 
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Email:", email, "Password:", password);
     navigate("/HomeSeller"); 
   };
-
+    const { setRol } = useRol();
   return (
     <>
       <Navbar />
@@ -44,7 +44,15 @@ const Login = () => {
               />
             </div>
 
-            <button type="submit" className="login-button">Ingresar</button>
+              <button
+                type="submit"
+                className="login-button"
+                onClick={() => {
+                  if (email === "admin@admin.co") setRol("admin");
+                }}
+              >
+                Ingresar
+        </button>
           </form>
 
           <div className="login-footer">
