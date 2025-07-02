@@ -19,7 +19,7 @@ const SellerNavbar = () => {
       <div className="navbar-left">
         <img src={Logo} alt="Logo" className="navbar-logo" />
         <ul className="navbar-links">
-          <li><Link to="/nuevo-alquiler" className="nav-link">Nuevo Alquiler</Link></li>
+          <li><Link to="/HomeSeller" className="nav-link">Nuevo Alquiler</Link></li>
           <li><Link to="/inventario" className="nav-link">Inventario</Link></li>
           <li><Link to="/ordenes" className="nav-link">Órdenes</Link></li>
           <li><Link to="/clientes" className="nav-link">Clientes</Link></li>

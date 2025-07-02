@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaUser, FaLock } from "react-icons/fa";
 import Navbar from "../../components/nav-bar/nav_bar.component";
@@ -15,6 +15,12 @@ const Login = () => {
     navigate("/HomeSeller"); 
   };
     const { setRol } = useRol();
+
+
+      useEffect(() => {
+        setRol("");
+      }, []);
+    
   return (
     <>
       <Navbar />

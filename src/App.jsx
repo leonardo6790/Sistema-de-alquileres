@@ -23,6 +23,7 @@ function App() {
         <Route path="/Ordenes" element={<Ordenes />} />
         <Route path="/Clientes" element={<Clientes />} />
         <Route path="/Admin/ingresos" element={<Ingresos />} />
+        
       </Routes>
 
   );
