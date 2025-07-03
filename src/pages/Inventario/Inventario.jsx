@@ -23,9 +23,9 @@ const Inventario = () => {
         <CardDress />
         <CardDress />
         <CardDress />
-        <CardDress />
-        <CardDress />
-        <CardDress />
+        
+    </div>
+    <div>
         <button className="botonuevo">NUEVO</button>
     </div>
 

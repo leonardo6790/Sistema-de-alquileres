@@ -7,13 +7,13 @@ const FooterComponent = () => {
   return (
     <footer className="footer">
       <div className="footer-column">
-        <a href="#">Términos y Condiciones</a>
+        <a href="/PreguntasFrec">Términos y Condiciones</a>
         <a href="#">Política de Privacidad</a>
         <div className="footer-icons">
-          <a href="#"><FaFacebook /></a>
-          <a href="#"><FaInstagram /></a>
-          <a href="#"><FaXTwitter /></a>
-          <a href="#"><FaLinkedin /></a>
+          <a href="https://www.facebook.com/"><FaFacebook /></a>
+          <a href="https://www.instagram.com"><FaInstagram /></a>
+          <a href="https://www.x.com"><FaXTwitter /></a>
+          <a href="https://www.linkedin.com/feed/"><FaLinkedin /></a>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const FooterComponent = () => {
         <h4>Horarios</h4>
         <p>Lunes a Viernes: 8am - 6pm</p>
         <p>Sábados: 9am - 1pm</p>
-        <p>Domingos: Cerrado</p>
+        <p>Domingos y festivos: Cerrado</p>
       </div>
     </footer>
   );

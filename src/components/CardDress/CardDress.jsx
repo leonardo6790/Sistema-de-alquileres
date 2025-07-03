@@ -8,9 +8,7 @@ const CardDress = () =>{
         <div className="unlorem">
             <h4 className="xd">Nom vestido</h4>
             <div className="parrafos">
-            <p>
-            Precio:   
-            </p>
+            <p>Precio:</p>
             <p>Color:</p>
             <p>Talla:</p>
             </div>
