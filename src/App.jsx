@@ -9,7 +9,6 @@ import Ordenes from "./pages/Ordenes/Ordenes";
 import Clientes from "./pages/Clientes/Clientes";
 import UserTable from "./pages/home_seller/search_client/search_client.page";
 import Ingresos from "./pages/Ingresos/ingresos-page";
-import IngresosInicio from "./pages/Ingresos-Inicio/Ingresos-Inicio";
 function App() {
   return (
 
@@ -23,8 +22,7 @@ function App() {
         <Route path="/Inventario" element={<Inventario />} />
         <Route path="/Ordenes" element={<Ordenes />} />
         <Route path="/Clientes" element={<Clientes />} />
-        <Route path="/Admin/ingresos" element={<Ingresos/>} />
-        <Route path="/IngresosInicio" element={<IngresosInicio/>} />
+        <Route path="/Admin/ingresos" element={<Ingresos />} />
         
       </Routes>
 

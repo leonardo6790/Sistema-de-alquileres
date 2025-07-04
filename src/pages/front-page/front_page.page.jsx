@@ -30,7 +30,6 @@ const FrontPage = () => {
         </div>
       <ProductCarousel/>
       <ProductCarousel/>
-      <ProductCarousel/>
       
       <div>
         

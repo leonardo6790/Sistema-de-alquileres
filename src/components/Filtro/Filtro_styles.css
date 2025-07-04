@@ -1,0 +1,46 @@
+.filter-sidebar {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+  height: 50%;
+}
+
+.filter-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filter-section {
+  margin-bottom: 15px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+}
+
+.toggle-icon {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.filter-options {
+  margin-top: 8px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-options label {
+  font-size: 0.9rem;
+  color: #555;
+}

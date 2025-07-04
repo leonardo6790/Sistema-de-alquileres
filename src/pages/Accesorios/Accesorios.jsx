@@ -1,20 +1,20 @@
-import SellerNavbar from "../../components/navbar_seller/navbar_seller.component"
+import "../Accesorios/Accesorios_style.css"
 import CardDress from "../../components/CardDress/CardDress";
-import "../Inventario/Inventario.css";
+import Navbar from "../../components/nav-bar/nav_bar.component";
 import Search from "../../components/Search/Search";
 import FooterComponent from "../../components/footer/footer.component";
 import FilterSidebar from "../../components/Filtro/Filtro";
-const Inventario = () => {
+const Accesorios = () => {
     return(
     <>
-    <SellerNavbar />
-    <h1>Inventario</h1>
+    <Navbar />
+    <h1>Catálogo de accesorios</h1>
     <div className="Cont_Header">
         <Search/>
     </div>
     <div className="Cont_Body">
         
-            
+
         <div className="Cont_Inventario">
             <CardDress/>
             <CardDress/>
@@ -30,12 +30,10 @@ const Inventario = () => {
         <div className="Cont_Filtrar">
         <FilterSidebar/>
         </div>
-
+        
     </div>
     <FooterComponent/>
-
     </>
-)
+    )
 }
-
-export default Inventario;
+export default Accesorios;
