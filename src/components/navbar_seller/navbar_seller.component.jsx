@@ -25,7 +25,7 @@ const SellerNavbar = () => {
           <li><Link to="/clientes" className="nav-link">Clientes</Link></li>
 
             {rol == "admin" ? (
-            <li><Link to="/informe-ventas" className="nav-link">Informe de Ventas</Link></li>
+            <li><Link to="/IngresosInicio" className="nav-link">Informe de Ventas</Link></li>
             ) : null}
 
         </ul>

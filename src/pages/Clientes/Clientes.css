@@ -1,0 +1,146 @@
+:root {
+    --rosa-principal: #eac6f9;
+    --rosa-boton: #d38be6;
+    --texto-oscuro: #222;
+    --borde: #555;
+  }
+  
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .clientes-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: var(--texto-oscuro);
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .acciones-busqueda {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .acciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .btn-acciones {
+    background-color: var(--rosa-principal);
+    border: 2px solid var(--borde);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .submenu {
+    margin-top: 6px;
+    margin-left: 50px;
+  }
+  
+  .submenu button {
+    margin: 3px 0;
+    background-color: var(--rosa-principal);
+    border: 2px solid var(--borde);
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+  
+  .buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  
+  .buscador input {
+    padding: 6px;
+    width: 200px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 2px solid var(--borde);
+
+  }
+  
+  .btn-buscar {
+    background-color: var(--rosa-boton);
+    border: 2px solid var(--borde);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+  }
+  
+  .tabla-scroll {
+    max-height: 280px;
+    overflow-y: auto;
+    border: 2px solid var(--borde);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .tabla-clientes {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .tabla-clientes th,
+  .tabla-clientes td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .tabla-clientes th {
+    background-color: var(--rosa-principal);
+    font-size: 15px;
+  }
+  
+  .tabla-clientes a {
+    color: #663399;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .crear-boton-contenedor {
+    margin-top: 20px;
+  }
+  
+  .btn-crear {
+    background-color: var(--rosa-boton);
+    color: white;
+    border: 2px solid var(--borde);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,48 @@
+.contenedor-tabla-ingresos {
+    max-height: 160px;
+    overflow-y: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 0;
+    margin: auto;
+    width: 75%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  .tabla-ingresos {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabla-ingresos th {
+    background-color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid black;
+    font-size: 14px;
+  }
+  
+  .tabla-ingresos td {
+    padding: 6px 8px;
+    border-bottom: 1px solid gray;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .contenedor-tabla-ingresos::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .contenedor-tabla-ingresos::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+  }
+  
+  .contenedor-tabla-ingresos::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
