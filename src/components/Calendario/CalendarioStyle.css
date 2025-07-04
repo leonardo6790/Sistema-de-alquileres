@@ -1,12 +1,19 @@
 .calendario {
-    width: 380px;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
+  width: 90%;         /* Se adapta al tamaño del padre */
+  max-width: 400px;   /* Máximo 400px para pantallas grandes */
+  margin: auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .calendario {
+    width: 95%;
+    font-size: 14px;
   }
+}
   
   .navegacion {
     display: flex;

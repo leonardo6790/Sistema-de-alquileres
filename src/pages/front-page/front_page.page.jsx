@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../components/nav-bar/nav_bar.component";
 import Carousel from "../../components/carousel/carousel.component";
 import ProductCarousel from "../../components/product_carousel/product_carousel.component";
 import FooterComponent from "../../components/footer/footer.component";
 import Categories from "../../components/cateegories_cards/categories_cards.component";
-
+import { useRol } from "../../Estados/Rol";
 import "./front_page.styles.css";
 
 
 const FrontPage = () => {
+
+  const { setRol } = useRol();
+
+  useEffect(() => {
+    setRol("");
+  }, []);
+
+
   return (
     <>
       <Navbar/>
