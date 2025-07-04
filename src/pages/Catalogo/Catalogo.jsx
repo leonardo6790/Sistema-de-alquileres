@@ -4,31 +4,36 @@ import Navbar from "../../components/nav-bar/nav_bar.component";
 import "../Catalogo/Catalogo.css";
 import Search from "../../components/Search/Search";
 import FooterComponent from "../../components/footer/footer.component";
+import FilterSidebar from "../../components/Filtro/Filtro";
 const Catalogo = () => {
     return(
     <>
     <Navbar />
-    <Search />
-    <div className="Contenedoruno" >
-    <div className="Contenedordos" >
-        <CardDress />
-        <CardDress />
-        <CardDress />
-        <CardDress />
-        <CardDress />
-        <CardDress />    
-        <CardDress />
-        <CardDress />
-        <CardDress />
+    <h1>Catálogo de vestidos</h1>
+    <div className="Cont_Header">
+        <Search/>
     </div>
-    <div>
-    <h2 className="xde">Filtrar</h2>
-    <h3>Talla             +</h3>
-    <h3>Color             +</h3>
-    <h3>Smokings y trajes +</h3>
+    <div className="Cont_Body">
+        
+            
+        <div className="Cont_Inventario">
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+            <CardDress/>
+        </div>
+
+        <div className="Cont_Filtrar">
+        <FilterSidebar/>
+        </div>
+        
     </div>
-    </div>
-    <FooterComponent></FooterComponent>
+    <FooterComponent/>
     </>
     )
 }

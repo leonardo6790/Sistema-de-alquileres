@@ -1,25 +1,24 @@
-.contacto-container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-  }
-  
-  .contacto-container h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .contacto-container p {
-    color: #555;
-    line-height: 1.6;
-  }
-  
-  .info-contacto {
-    margin-top: 20px;
-    padding-left: 10px;
-  }
-  
+.Cont_Prin{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 2%;
+  margin-top: 2%;
+}
+.Cont_Derecho{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 2%;
+  border-radius: 15px;
+  border: 2px solid black;
+  height: auto;
+  min-height: 500px;
+}
+.Cont_Izquierdo{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 2%;
+  border-radius: 15px;
+  border: 2px solid black;
+  height: auto;
+  min-height: 500px;
+}

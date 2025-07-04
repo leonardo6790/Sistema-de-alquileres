@@ -1,22 +1,32 @@
 import React from 'react';
 import './contact.styles.css';
 import Navbar from '../../components/nav-bar/nav_bar.component'
+import FooterComponent from '../../components/footer/footer.component';
 
 const Contact = () => {
   return (
     <>
         <Navbar></Navbar>
-        <div className="contacto-container">
-            <h2>Contacto - SGA</h2>
-            <p>En SGA estamos para ayudarte. Puedes comunicarte con nosotros a través de los siguientes medios:</p>
-        
-        <div className="info-contacto">
-            <p><strong>Teléfono:</strong> +57 320 456 7890</p>
-            <p><strong>Dirección:</strong> Calle 123 #45-67, Bogotá, Colombia</p>
-            <p><strong>Email:</strong> contacto@sga.com.co</p>
-        </div>
-        </div>
+        <h1>Preguntas Frecuentes</h1>
+        <div className="Cont_Prin">
+          
+          <div className='Cont_Derecho'>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora iure officia soluta quibusdam corporis. Rerum consequuntur ratione soluta, eligendi facere quos aut odit debitis tempora dolorum deserunt enim nam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora iure officia soluta quibusdam corporis. Rerum consequuntur ratione soluta, eligendi facere quos aut odit debitis tempora dolorum deserunt enim nam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora iure officia soluta quibusdam corporis. Rerum consequuntur ratione soluta, eligendi facere quos aut odit debitis tempora dolorum deserunt enim nam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora iure officia soluta quibusdam corporis. Rerum consequuntur ratione soluta, eligendi facere quos aut odit debitis tempora dolorum deserunt enim nam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora iure officia soluta quibusdam corporis. Rerum consequuntur ratione soluta, eligendi facere quos aut odit debitis tempora dolorum deserunt enim nam.</p>
+          </div>
+          <div className='Cont_Izquierdo'>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus dolore iusto vitae quibusdam suscipit velit dicta animi et sapiente natus earum sunt architecto perspiciatis doloremque libero? Quod, minus quam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus dolore iusto vitae quibusdam suscipit velit dicta animi et sapiente natus earum sunt architecto perspiciatis doloremque libero? Quod, minus quam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus dolore iusto vitae quibusdam suscipit velit dicta animi et sapiente natus earum sunt architecto perspiciatis doloremque libero? Quod, minus quam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus dolore iusto vitae quibusdam suscipit velit dicta animi et sapiente natus earum sunt architecto perspiciatis doloremque libero? Quod, minus quam.</p>
+            <p>-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus dolore iusto vitae quibusdam suscipit velit dicta animi et sapiente natus earum sunt architecto perspiciatis doloremque libero? Quod, minus quam.</p>
+          </div>
 
+        </div>
+      <FooterComponent/>
     </>
     
   );

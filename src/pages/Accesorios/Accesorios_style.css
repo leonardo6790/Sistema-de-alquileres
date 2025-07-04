@@ -1,0 +1,12 @@
+.Contenedordos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+}
+.Contenedoruno{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+.xde{
+    text-align: center;
+}
