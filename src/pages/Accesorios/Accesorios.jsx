@@ -8,14 +8,12 @@ const Accesorios = () => {
     return(
     <>
     <Navbar />
-    <h1>Catálogo de accesorios</h1>
+    <h1 className="header-accesorios">Catálogo de accesorios</h1>
     <div className="Cont_Header">
         <Search/>
     </div>
-    <div className="Cont_Body">
-        
-
-        <div className="Cont_Inventario">
+    <div className="Contenedoruno">
+        <div className="Contenedordos">
             <CardDress/>
             <CardDress/>
             <CardDress/>

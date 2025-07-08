@@ -9,14 +9,12 @@ const Catalogo = () => {
     return(
     <>
     <Navbar />
-    <h1>Catálogo de vestidos</h1>
+    <h1 className="Header-catalogo">Catálogo de vestidos</h1>
     <div className="Cont_Header">
         <Search/>
     </div>
-    <div className="Cont_Body">
-        
-            
-        <div className="Cont_Inventario">
+    <div className="Contenedoruno">
+        <div className="Contenedordos">
             <CardDress/>
             <CardDress/>
             <CardDress/>
@@ -27,7 +25,6 @@ const Catalogo = () => {
             <CardDress/>
             <CardDress/>
         </div>
-
         <div className="Cont_Filtrar">
         <FilterSidebar/>
         </div>

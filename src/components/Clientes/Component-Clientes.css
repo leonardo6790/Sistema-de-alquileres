@@ -1,11 +1,12 @@
 .tabla-contenedor {
-    width: 500px;
+    width: 90%;
     max-height: 300px;
     overflow-y: auto;
     border: 2px solid rgb(135, 135, 135);
     border-radius: 10px;
     font-family: sans-serif;
     box-shadow: 0 0 2px 3px rgb(188, 188, 188);
+    margin: 20px;
   }
   
   .tabla-ordenes {

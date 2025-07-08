@@ -4,7 +4,9 @@
     --texto-oscuro: #222;
     --borde: #555;
   }
-  
+  .clientes-container{
+    height: 700px;
+  }
   body {
     background-color: white;
     margin: 0;
@@ -97,7 +99,7 @@
   }
   
   .tabla-scroll {
-    max-height: 280px;
+    max-height: 100%;
     overflow-y: auto;
     border: 2px solid var(--borde);
     border-radius: 10px;

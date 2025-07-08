@@ -9,9 +9,11 @@ import Ordenes from "./pages/Ordenes/Ordenes";
 import Clientes from "./pages/Clientes/Clientes";
 import UserTable from "./pages/home_seller/search_client/search_client.page";
 import Ingresos from "./pages/Ingresos/ingresos-page";
+import Catalogo from "./pages/Catalogo/Catalogo";
+import IngresosInicio from "./pages/Ingresos-Inicio/Ingresos-Inicio";
+import Accesorios from "./pages/Accesorios/Accesorios"
 function App() {
   return (
-
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="/login" element={<Login />} />
@@ -23,9 +25,10 @@ function App() {
         <Route path="/Ordenes" element={<Ordenes />} />
         <Route path="/Clientes" element={<Clientes />} />
         <Route path="/Admin/ingresos" element={<Ingresos />} />
-        
+        <Route path="/Catalogo" element={<Catalogo/>} />
+        <Route path="/IngresosInicio" element={<IngresosInicio/>} />
+        <Route path="/Accesorios" element={<Accesorios/>} />
       </Routes>
-
   );
 }
 

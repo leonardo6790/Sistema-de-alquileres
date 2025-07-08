@@ -5,11 +5,23 @@
   gap: 12px; /* separación entre input y botón */
   margin-top: 30px;
   margin-left: 2%;
+  height: 20px;
 }
-.boton {
+.botton-search {
     width: 5%;
-    background-color: rgb(113, 113, 239);
+    background-color: #f3e5f5;
     border-radius: 5px;
+    border: 1px solid rgb(172, 145, 172);
     cursor: pointer;
-    height: 4vh;
+    height: 3vh;
+    transition: 0.3s ease;
+}
+.botton-search:hover{
+  background-color: rgb(214, 170, 255);
+  color: rgb(251, 238, 255);
+}
+.inp-search{
+  height: 3vh;
+  border-radius: 5px;
+  border: 1px solid rgb(117, 117, 117);
 }

@@ -45,6 +45,18 @@ const ComponentCliente = () => {
               <td>24 / 10 / 2024</td>
               <td><span className="menu-icon">⋮</span></td>
             </tr>
+            <tr>
+              <td># 35485</td>
+              <td>Alfonso López Michelsen</td>
+              <td>24 / 10 / 2024</td>
+              <td><span className="menu-icon">⋮</span></td>
+            </tr>
+            <tr>
+              <td># 35485</td>
+              <td>Alfonso López Michelsen</td>
+              <td>24 / 10 / 2024</td>
+              <td><span className="menu-icon">⋮</span></td>
+            </tr>
           </tbody>
         </table>
       </div>

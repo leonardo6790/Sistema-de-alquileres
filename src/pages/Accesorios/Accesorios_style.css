@@ -10,3 +10,9 @@
 .xde{
     text-align: center;
 }
+.header-accesorios{
+    text-align: center;
+    background-color: #f3e5f5;
+    box-shadow: 1px 2px 3px rgb(201, 201, 201);
+    padding: 15px;
+}
