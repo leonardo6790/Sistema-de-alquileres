@@ -1,0 +1,121 @@
+.invoice-wrapper {
+  background-color: #eef1f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.invoice-card {
+  background-color: #fff;
+  width: 600px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.invoice-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.invoice-form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.invoice-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.invoice-products-header {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.invoice-product-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.invoice-product-row input,
+.invoice-product-row p {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.invoice-product-row p {
+  background-color: #f7f7f7;
+}
+
+.invoice-add-btn {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.invoice-add-btn:hover {
+  background-color: #0056b3;
+}
+
+.invoice-total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.invoice-download-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.invoice-download-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.invoice-download-btn:hover {
+  background-color: #1e7e34;
+}

@@ -12,6 +12,7 @@ import Ingresos from "./pages/Ingresos/ingresos-page";
 import Catalogo from "./pages/Catalogo/Catalogo";
 import IngresosInicio from "./pages/Ingresos-Inicio/Ingresos-Inicio";
 import Accesorios from "./pages/Accesorios/Accesorios"
+import Invoice from "./pages/create_bill/create_bill.component"
 function App() {
   return (
       <Routes>
@@ -28,6 +29,8 @@ function App() {
         <Route path="/Catalogo" element={<Catalogo/>} />
         <Route path="/IngresosInicio" element={<IngresosInicio/>} />
         <Route path="/Accesorios" element={<Accesorios/>} />
+        <Route path="/HomeSeller/CreateBill" element={<Invoice/>} />
+        
       </Routes>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./create_user.styles.css";
 import SellerNavbar from "../../../components/navbar_seller/navbar_seller.component";
+import { Link } from "react-router-dom";
 
 const CreateUser = () => {
   const [formData, setFormData] = useState({
@@ -15,7 +16,7 @@ const CreateUser = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+<Link></Link>
   return (
     <>
       <SellerNavbar />
@@ -38,7 +39,7 @@ const CreateUser = () => {
           </form>
           <div className="form-buttons">
             <button className="cancel-button">Cancelar</button>
-            <button className="save-button">Guardar</button>
+            <Link to="/HomeSeller/CreateBill"><button className="save-button">Guardar</button></Link>
           </div>
         </div>
       </div>
