@@ -1,39 +1,54 @@
-.Titulo{
-    margin-left: 1.5%;
-    margin-top: 2%;
-}
+
 .ContenedorPrincipal{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
-
+    padding: 7px;
 }
 .ContenedorIzquierda{
 text-align: center;
-margin-top: 6%;
-margin-right: 3.5%;
+padding: 7px;
+
 }
 .InputBuscar{
-    margin-top: 20px;
-    margin-bottom: 25px;
-    width: auto;
-    height: 30px;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding-left: 5px;
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(139, 139, 139);
     font-size: 20px;
+    margin-left: 10px;
+}
+.hachetre{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .BotonBuscador{
     width: auto;
-    height: 30px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: rgb(116, 106, 254);
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 221, 255);
     font-size: 20px;
     cursor: pointer;
     margin-left: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(167, 167, 167);
+}
+.BotonBuscador:hover{
+    background-color: rgb(222, 187, 255);
+    transition: 0.3s ease;
+}
+
+.inputs{
+    display:flex;
+    padding-bottom: 20px;
+}
+.calendario-orden{
+    top: 20px;
+    position: sticky;
 }
 
 

@@ -21,18 +21,24 @@ const Ordenes = () => {
                 <OrdenesCards/>
                 <OrdenesCards/>
                 <OrdenesCards/>
+                <OrdenesCards/>
+                <OrdenesCards/>
+                <OrdenesCards/>
+                <OrdenesCards/>
+                <OrdenesCards/>
             </div>
 
             <div className="ContenedorIzquierda">
-                <h2>Buscar por N° de órden</h2>
-                <div className="buscador">
-                <input type="text" placeholder="Ingrese el N° de orden" className="InputBuscar"/>
-                <button className="BotonBuscador">Ingresar</button>     
+                <div className="calendario-orden">
+                <p className="hachetre">Buscar por N° de órden</p>
+                <div className="inputs">
+                <input type="text" placeholder="   Ingrese el N°" className="InputBuscar"/>
+                <button className="BotonBuscador" >Ingresar</button>
                 </div>
-                <h2>Seleccione una fecha para ver sus órdenes</h2>
+                <h3 className="hachetre" >Seleccione una fecha para ver sus órdenes</h3>
                 <Calendario/>
+                </div>
             </div >
-
         </div>
         <FooterComponent/>
         </>

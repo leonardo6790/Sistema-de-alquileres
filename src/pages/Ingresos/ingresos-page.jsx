@@ -9,7 +9,9 @@ import TablaIngresos from "../../components/Ingresos-Clientes/TablaIngresos";
 const Ingresos = () =>{
     return(
         <>
+        <div className="naba">
         <SellerNavbar></SellerNavbar> 
+        </div>
         <div className="body2"> 
         <div className="container-ingresos">
             <div className="container-password">
