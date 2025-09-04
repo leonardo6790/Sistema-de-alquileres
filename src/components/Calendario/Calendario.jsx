@@ -28,7 +28,6 @@ const Calendario = () => {
 
     return celdas;
   };
-
   const cambiarMes = (direccion) => {
     const nuevoMes = new Date(fecha.getFullYear(), fecha.getMonth() + direccion, 1);
     setFecha(nuevoMes);

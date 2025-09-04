@@ -15,6 +15,7 @@ const Ordenes = () => {
             <div className="ContenedorDerecha">
                 <div className="Titulo">
                     <h1>A recibir</h1>
+                    <button className="entregue">A recibir</button>
                 </div>
                 <OrdenesCards/>
                 <OrdenesCards/>
@@ -27,17 +28,17 @@ const Ordenes = () => {
                 <OrdenesCards/>
                 <OrdenesCards/>
             </div>
-
             <div className="ContenedorIzquierda">
                 <div className="calendario-orden">
                 <p className="hachetre">Buscar por N° de órden</p>
                 <div className="inputs">
-                <input type="text" placeholder="   Ingrese el N°" className="InputBuscar"/>
+                <input type="text" placeholder="Ingrese el N°" className="InputBuscar"/>
                 <button className="BotonBuscador" >Ingresar</button>
                 </div>
-                <h3 className="hachetre" >Seleccione una fecha para ver sus órdenes</h3>
-                <Calendario/>
+                <h3 className="hachetre2">Seleccione una fecha para ver sus órdenes</h3>
+                <input type="date" className="cale" />
                 </div>
+                
             </div >
         </div>
         <FooterComponent/>

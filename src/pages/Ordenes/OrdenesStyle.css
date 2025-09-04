@@ -11,31 +11,42 @@ padding: 7px;
 
 }
 .InputBuscar{
-    width: 30%;
+    width: 60%;
     height: 25px;
     border-radius: 5px;
     border: 0.5px solid rgb(139, 139, 139);
-    font-size: 20px;
+    font-size: 100%;
+    text-align: center;
     margin-left: 10px;
+    margin: auto;
+    text-align: center;
 }
 .hachetre{
     margin-left: 15px;
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+.hachetre2{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0%;
 }
 .BotonBuscador{
-    width: auto;
+    width: 30%;
+    margin: auto !important;
     height: 25px;
     border-radius: 5px;
     border: none;
     background-color: rgb(245, 221, 255);
-    font-size: 20px;
+    font-size: 100%;
     cursor: pointer;
-    margin-left: 10px;
     padding-left: 5px;
     padding-right: 5px;
     cursor: pointer;
-    box-shadow: 0 0 4px rgb(167, 167, 167);
+    margin-top: 10px !important;
 }
 .BotonBuscador:hover{
     background-color: rgb(222, 187, 255);
@@ -45,10 +56,40 @@ padding: 7px;
 .inputs{
     display:flex;
     padding-bottom: 20px;
+    flex-direction: column;
+}
+.entregue{
+     width: 30%;
+    margin: auto !important;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 221, 255);
+    font-size: 100%;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    margin-top: 10px !important;
+}
+.entregue:hover{
+    background-color: rgb(222, 187, 255);
+    transition: 0.3s ease;
+
+
+
+
+    
 }
 .calendario-orden{
     top: 20px;
     position: sticky;
 }
-
+.cale{
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 141, 141);
+    width: 70%;
+    text-align: center;
+    background-color: rgb(253, 245, 255);
+}
 
